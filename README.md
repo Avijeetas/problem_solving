@@ -1,222 +1,104 @@
-# What this repository is about
-This repository is created to organize the solutions of problems related to data structures and algorithms. And if possible, provide an easier way to learn problems' solutions as well as the related concepts of data structures and algorithms.
+<!-- [![Build Status](https://img.shields.io/circleci/build/gh/reyadussalahin/problem-solving/main?style=flat-square)](https://circleci.com/gh/reyadussalahin/problem-solving/tree/main)
+[![Issues](https://img.shields.io/github/issues/reyadussalahin/problem-solving?style=flat-square&color=blue)](https://github.com/reyadussalahin/problem-solving/issues)
+[![Forks](https://img.shields.io/github/forks/reyadussalahin/problem-solving?style=flat-square&color=purple)](https://github.com/reyadussalahin/problem-solving/network/members)
+[![Stars](https://img.shields.io/github/stars/reyadussalahin/problem-solving?style=flat-square)](https://github.com/reyadussalahin/problem-solving/stargazers)
+[![License](https://img.shields.io/github/license/reyadussalahin/problem-solving?color=teal&style=flat-square)](https://github.com/reyadussalahin/problem-solving/blob/master/LICENSE)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/reyadussalahin/problem-solving?style=flat-square)](https://github.com/reyadussalahin/problem-solving/pulls) -->
 
 
-# Languages used for solution (So far)
-- C
-- C++
-- Java
-- Python
-- JavaScript(NodeJS)
+<h1 align="center">Problem Solving</h1>
+<p align="center">A heaven for competitive programmers</p>
+<p align="center">
+    <span>
+        <a href="https://circleci.com/gh/reyadussalahin/problem-solving/tree/main">
+            <img alt="Build Status" src="https://img.shields.io/circleci/build/gh/reyadussalahin/problem-solving/main?style=flat">
+        </a>
+    </span>
+    <span>
+        <a href="https://github.com/reyadussalahin/problem-solving/stargazers">
+            <img alt="Stars" src="https://img.shields.io/github/stars/reyadussalahin/problem-solving?style=flat">
+        </a>
+    </span>
+    <span>
+        <a href="https://github.com/reyadussalahin/problem-solving/pulls">
+            <img alt="PRs" src="https://img.shields.io/github/issues-pr/reyadussalahin/problem-solving?style=flat">
+        </a>
+    </span>
+    <span>
+        <a href="https://github.com/reyadussalahin/problem-solving/issues">
+            <img alt="Issues" src="https://img.shields.io/github/issues/reyadussalahin/problem-solving?style=flat&color=orange">
+        </a>
+    </span>
+    <span>
+        <a href="https://github.com/reyadussalahin/problem-solving/network/members">
+            <img alt="Forks" src="https://img.shields.io/github/forks/reyadussalahin/problem-solving?style=flat&color=magenta">
+        </a>
+    </span>
+    <span>
+        <a href="https://github.com/reyadussalahin/problem-solving/blob/main/LICENSE">
+            <img alt="License" src="https://img.shields.io/github/license/reyadussalahin/problem-solving?color=teal&style=flat">
+        </a>
+    </span>
+</p>
+<br>
 
 
-# How to structure the problem solutions
-### For OJs, those provide unique problem id
-**Format: {category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{Solution.ext}**  
-Example:  
-- C: data_structure/segment_tree/codeforces/F558E/Solution.c
-- CPP: data_structure/segment_tree/codeforces/F558E/Solution.cpp
-- Java: data_structure/segment_tree/codeforces/F558E/Solution.java
-- Python: data_structure/segment_tree/codeforces/F558E/Solution.py
+## What this repository is about
+This repository is created to organize the solutions of problems related to data structures and algorithms. And if possible, provide an easier way for learning various concepts related to data structures and algorithms.
 
-### For ojs, those provide unique name
-**Format: {category_name}/{sub_category_name}/{oj_name}/{F+problem_name}/{Solution.ext}**  
-Example:  
-- C: data_structure/stack/hackerrank/FBalancedBrackets/Solution.c
-- CPP: data_structure/stack/hackerrank/FBalancedBrackets/Solution.cpp
-- Java: data_structure/stack/hackerrank/FBalancedBrackets/Solution.java
-- Python: data_structure/stack/hackerrank/FBalancedBrackets/Solution.py
+### Topics covered till now (Alphabetically)
+ - [Ad Hoc](ad_hoc/)
+ - [amortized_analysis](amortized_analysis/)
+ - [brute_force](brute_force/)
+ - [computational_geometry](computational_geometry/)
+ - [data_structure](data_structure/)
+ - [dynamic_programming](dynamic_programming/)
+ - [game](game/)
+ - [graph](graph/)
+ - [greedy](greedy/)
+ - [hashing](hashing/)
+ - [math](math/)
+ - [non_overlapping_subproblem](non_overlapping_subproblem/)
+ - [search](search/)
+ - [string](string/)
 
-### For contest like codejam, hackercup etc.
-**Format: {contest_name}/{Y+year}/{round_name}/{F+problem_name}/{Solution.ext}**  
-Example:  
-- C: codejam/Y2019/round01A/FAlienRhyme/Solution.c
-- CPP: codejam/Y2019/round01A/FAlienRhyme/Solution.cpp
-- Java: codejam/Y2019/round01A/FAlienRhyme/Solution.java
-- Python: codejam/Y2019/round01A/FAlienRhyme/Solution.py
+Each topic is divided into numerous subtopics, such as you'd find `list`, `stack`, `priority_queue`, `segment_tree`, `treap`, `link_cut_tree` etc. under `data_structure` category. We encourage you add more topic in this list.
 
-### For ACM ICPC World Finals
-**Format: {world_final}/{Y+year}/{F+problem_name}/{Solution.ext}**  
-Example:
-- C: world_final/Y2017/FNeedForSpeed/Solution.c  
-Its same for other languages
+### Languages used (till now)
+ - C
+ - C++
+ - Java
+ - PHP
+ - Python
+ - Ruby
+ - JavaScript(NodeJS)
+ - Racket(Formerly known as `PLT Sceme`)
 
-### For ACM ICPC Regionals
-**Format: {regional}/{Y+year}/{site}/{F+problem_name}/{Solution.ext}**  
-Example:
-- C: regional/Y2017/dhaka/FMegaMind/Solution.c  
-Its same for other languages
+This languages have been used till now. But we always welcome more new languages whether it is `C#`, `Bash` or `Brainfuck`. We welcome each and every computer language that exists in this universe.
 
-### For random contests
-**Format: {random_contest}/{Y+year}/{contest_name}/{F+problem_name}/{Solution.ext}**  
-Example:
-- C: random_contest/Y2019/practice_for_preli/FLifeOfPhi/Solution.c  
-Its same for other languages
-
-### Rules to add multiple solutions
-If there are multiple solutions, then name the second solution file as Solution001.{ext} such as Solution001.c, and third solution file as Solution002.c and so on ...
-
-
-# What the source file should contain
-1. Source file must contain a working solution
-2. At top of the source file add(you must add this as "comment"):
-    - problem link (must)
-    - contest link (if exists)
-    - author name  (it's good to add author name)
-    - timestamp         (not mandatory)
-
-**Example:**
-
-```
-// problem name: A Simple Task
-// problem link: https://codeforces.com/contest/558/problem/E
-// contest link: https://codeforces.com/contest/558
-// author: reyad
-// timestamp: (?)
-
-#include <stdio.h>
-#define N 100100
-....
-....
-....
-```
+### Problems used from the following judges
+ - [Codeforces](https://codeforces.com)
+ - [Codechef](https://www.codechef.com/)
+ - [Timus](http://acm.timus.ru/)
+ - [UVa](https://onlinejudge.org/)
+ - [UVaLive](https://icpcarchive.ecs.baylor.edu/)
+ - [Hackerrank](https://www.hackerrank.com/)
+ - [Hackerearth](https://www.hackerearth.com/)
+ - [Lightoj](http://lightoj.com/)
+ - [SPOJ](https://www.spoj.com/)
+ - [Leetcode](https://leetcode.com)
+ - [Project Euler](https://projecteuler.net/)
+ - [Atcoder](https://atcoder.jp/)
 
 
-# How to provide a way for easy learning
-1. Add a README.md file in the category folder to explain the category
-2. Add a README.md file in the sub category folder to explain the sub category
-3. Add a README.md file in the solution folder to explain the solutions
-### README in category
-It should explain what the category. Let us take data structure as an example. We should try to explain:
-1. What is data structure
-2. Why it is needed
-3. Some examples of data structures
-4. Some use case of data structures
-etc.
+## Learning from this repository
+You can start learning from this repository right away. If you are a beginner, start your journey from [here](LEARNING/contents/README.md) or you can just jump right into your choice of topics.
 
-**N.B. :**
-1. To add images for better explanation, keep the images in: *"{category_name}/{resources}/{images}"* directory
-2. For other resource categories use: *"{category_name}/{resources}/{resource_category_name}"* directory
+## Contributing
+It's very easy to contribute to this repository. If you've already started solving algorithmic problems, you can start right away. To learn details about contributing, please read [this guide](.github/CONTRIBUTING.md).
 
-### README in sub category
-It should explain what the subcategory is. Let us assume segment tree:
-1. What is segment tree, the theory behind it
-2. Implementation details
-3. How to use it to solve problems with examples
-4. Modifications of segement tree like using Lazy propagations with examples
-etc.
+## License
+This repository is published under `MIT License`. To know more about license please visit [this link](LICENSE).
 
-**N.B. :**
-1. To add images for better explanation, keep the images in: *"{category_name}/{sub_category_name}/{resources}/{images}"* directory
-2. For other resource categories use: *"{category_name}/{sub_category_name}/{resources}/{resource_category_name}"* directory
-
-### README in solution folder
-1. It should contain problem link
-2. A short problem description(enough to understand the problem)
-3. Explanation of the problem to gain insight how to solve the problem
-4. Explanation of the solutions one by one
-
-May be some much better way be found out later to explain things more easily. But in the mean time let's follow this procedure.
-
-**N.B. :**
-1. To add images for better explanation, keep the images in: *"{category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{images}"* directory
-2. For other resource categories use: *"{category_name}/{sub_category_name}/{oj_name}/{F+problem_id}/{resources}/{resource_category_name}"* directory
-
-
-# OJ list:
-These are the short-codes for "oj_name" that has been (and will be) used to create directory
-- [Codeforces:](https://codeforces.com)
-    - oj_name: codeforces
-- [Codechef:](https://www.codechef.com/)
-    - oj_name: codechef
-- [Timus:](http://acm.timus.ru/)
-    - oj_name: timus
-- [UVa:](https://uva.onlinejudge.org/)
-    - oj_name: uva
-- [Hackerrank:](https://www.hackerrank.com/)
-    - oj_name: hackerrank
-- [Hackerearth:](https://www.hackerearth.com/)
-    - oj_name: hackerearth
-- [Lightoj:](http://lightoj.com/)
-    - oj_name: loj
-- [SPOJ:](https://www.spoj.com/)
-    - oj_name: spoj
-
-
-# Category and Sub-Category list
-These are the short-codes for "category_name" and "sub_category_name" has been (and will be) used to create directory
-- ad_hoc:
-    - implementation
-- brute_force:
-    - loop
-    - recursion
-    - backtracking
-- search:
-    - binary_search
-    - ternary_search
-- sort:
-    - insertion_sort
-    - merge_sort
-    - quick_sort
-- math:
-    - basic
-    - probability
-    - big_integer
-    - combinatorics
-    - number_theory
-- dynamic_programming:
-    - coin_change
-    - knapsack
-    - lis
-    - lcs
-    - matrix_chain_mul
-    - non_classical
-- greedy:
-- data_structure:
-    - array
-    - list
-    - stack
-    - queue
-    - heap
-    - segment_tree
-    - sqrt_decomposition
-    - treap
-- graph:
-    - bfs
-    - dfs
-    - scc
-    - articulation_point
-    - articulation_bridge
-- string:
-    - basic
-    - kmp
-    - trie
-- computational_geometry
-    - basic
-    - convex_hull
-    - picks_theorem
-    - line_sweep
-- hackercup
-- codejam
-
-#### Round names for codejam, hackercup etc
-- *Codejam* round name convention:
-    - qualification
-    - round01A
-    - round01B
-    - round01C
-    - round02
-    - round03
-- *Hackercup* round name convention:
-    - qualification
-    - round01
-    - round02
-    - round03
-
-More categories and sub categories will be added later.
-
-
-# Contributing
-To learn details about contributing, please read [Contributing](https://github.com/reyadussalahin/problem_solving/blob/dev/contributing/README.md) file.
-
-**Any one is welcome to contribute!!!**
+## Acknowledgements
+To all the contributors and code reviewers.
